@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 
 def predict_model(i):
     dataset=pd.read_csv("soil.csv")
-    dataset=dataset.dropna
+    dataset=dataset.dropna()
     x=dataset.iloc[:,1].values
     y=dataset.iloc[:,-1].values
     x=x.reshape(-1,1)
