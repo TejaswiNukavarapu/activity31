@@ -1,0 +1,3 @@
+Aurdino board
+female to female connecting wires
+moisture sensor
